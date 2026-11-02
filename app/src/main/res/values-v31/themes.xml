@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.VLW.Splash" parent="Theme.VLW">
+        <item name="android:windowBackground">@color/vlw_navy</item>
+        <item name="android:windowSplashScreenBackground">@color/vlw_navy</item>
+    </style>
+</resources>

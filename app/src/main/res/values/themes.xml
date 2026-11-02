@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.VLW" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/vlw_navy</item>
+        <item name="colorOnPrimary">@color/vlw_white</item>
+        <item name="android:statusBarColor">@color/vlw_navy</item>
+        <item name="android:windowBackground">@color/vlw_cream</item>
+    </style>
+    <style name="Theme.VLW.Splash" parent="Theme.VLW">
+        <item name="android:windowBackground">@color/vlw_navy</item>
+    </style>
+</resources>
