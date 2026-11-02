@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="vlw_navy">#0B1F4B</color>
+    <color name="vlw_green">#0E4D32</color>
     <color name="vlw_gold">#C9A24B</color>
+    <color name="vlw_cream">#FAF4EA</color>
     <color name="vlw_white">#FFFFFF</color>
-    <color name="vlw_cream">#FAF7F0</color>
+    <color name="vlw_splash_bg">#020B1F</color>
 </resources>
