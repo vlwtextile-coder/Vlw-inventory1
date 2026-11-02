@@ -157,8 +157,5 @@ fun EmployeeHomeScreen(viewModel: InventoryViewModel) {
         saleResult?.let { msg ->
             Spacer(modifier = Modifier.height(16.dp))
             Text(msg, color = if (msg.startsWith("Success")) Color.Green else Color.Red)
-        }
-    }
-}
-
-@Composable
+        
+    
