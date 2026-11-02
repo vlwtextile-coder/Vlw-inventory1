@@ -7,15 +7,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.unit.dp
-
-val PremiumOffWhite = Color(0xFFFAFAFA)
-val PremiumDarkGreen = Color(0xFF1B3B2B)
-val PremiumGold = Color(0xFFD4AF37)
-
-@Composable
-fun AppNavigationScreen(viewModel: InventoryViewModel) {
-    val role by viewModel.currentRole.collectAsState()
+import 
 
     Surface(modifier = Modifier.fillMaxSize(), color = PremiumOffWhite) {
         when (role) {
